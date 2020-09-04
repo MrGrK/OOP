@@ -22,31 +22,6 @@ public class Employee {
         _age = pAge;
     }
 
-
-    public String get_name() {
-        return _name;
-    }
-
-    public String get_position() {
-        return _position;
-    }
-
-    public String get_mail() {
-        return _mail;
-    }
-
-    public String get_phone() {
-        return _phone;
-    }
-
-    public int get_salary() {
-        return _salary;
-    }
-
-    public int get_age() {
-        return _age;
-    }
-
     public void printEmpData() {
         System.out.println("ФИО: " + this._name + "; Должность: " + this._position + "; Почта: " + this._mail + "; Телефон: " +
                 this._phone + "; Зарплата: " + this._salary + "; Возраст: " + this._age);
